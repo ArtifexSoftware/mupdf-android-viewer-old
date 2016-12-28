@@ -1,8 +1,8 @@
 .gradle
-/local.properties
 .idea
 .DS_Store
-/build
-/captures
-*.iml
-obj
+/local.properties
+/bin
+/gen
+/obj
+/libs

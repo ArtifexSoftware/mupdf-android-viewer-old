@@ -9,7 +9,7 @@ endif
 
 include $(CLEAR_VARS)
 
-MY_ROOT := ../../..
+MY_ROOT := libmupdf
 
 LOCAL_CFLAGS += -Wall -Wno-uninitialized
 

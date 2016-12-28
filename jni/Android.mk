@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 TOP_LOCAL_PATH := $(LOCAL_PATH)
 
-MUPDF_ROOT := ../../..
+MUPDF_ROOT := libmupdf
 
 ifdef NDK_PROFILER
 include android-ndk-profiler.mk
@@ -15,6 +15,7 @@ include $(CLEAR_VARS)
 LOCAL_C_INCLUDES := \
 	jni/andprof \
 	$(MUPDF_ROOT)/include \
+	$(MUPDF_ROOT)/source \
 	$(MUPDF_ROOT)/source/fitz \
 	$(MUPDF_ROOT)/source/pdf \
 	$(MUPDF_ROOT)/platform/java
@@ -22,8 +23,7 @@ LOCAL_CFLAGS := -DHAVE_ANDROID
 LOCAL_MODULE := mupdf_java32
 
 LOCAL_SRC_FILES := \
-	mupdf.c \
-	$(MUPDF_ROOT)/../platform/java/mupdf_native.c
+	mupdf.c
 
 LOCAL_STATIC_LIBRARIES := mupdfcore mupdfthirdparty
 ifdef NDK_PROFILER

@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-MY_ROOT := ../../..
+MY_ROOT := libmupdf
 
 LOCAL_C_INCLUDES := \
 	$(MY_ROOT)/include/ \
