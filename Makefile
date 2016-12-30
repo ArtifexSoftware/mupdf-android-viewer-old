@@ -3,9 +3,8 @@ default:
 	ant debug
 
 clean:
-	ndk-build clean
 	ant clean
+	ndk-build clean
 
-install:
-	ndk-build
+install: default
 	ant debug install
