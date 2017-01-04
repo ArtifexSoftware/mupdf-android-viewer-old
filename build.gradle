@@ -23,7 +23,7 @@ android {
 	compileSdkVersion 17
 	buildToolsVersion '21.1.2'
 
-	/* this stops gradle from making it's own Android.mk file */
+	/* this stops gradle from making its own Android.mk file */
 	sourceSets.main.jni.srcDirs = []
 
 	sourceSets {

@@ -831,7 +831,7 @@ public class ReaderView
 			params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
 		}
 		addViewInLayout(v, 0, params, true);
-		mChildViews.append(i, v); // Record the view against it's adapter index
+		mChildViews.append(i, v); // Record the view against its adapter index
 		measureView(v);
 	}
 
@@ -883,7 +883,7 @@ public class ReaderView
 
 	private void postSettle(final View v) {
 		// onSettle and onUnsettle are posted so that the calls
-		// wont be executed until after the system has performed
+		// won't be executed until after the system has performed
 		// layout.
 		post (new Runnable() {
 			public void run () {

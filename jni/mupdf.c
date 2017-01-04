@@ -827,7 +827,7 @@ JNI_FN(MuPDFCore_drawPage)(JNIEnv *env, jobject thiz, jobject bitmap,
 		bbox.y1 = patchY + patchH;
 		pixbbox = bbox;
 		pixbbox.x1 = pixbbox.x0 + info.width;
-		/* pixmaps cannot handle right-edge padding, so the bbox must be expanded to match the pixels data */
+		/* pixmaps cannot handle right-edge padding, so the bbox must be expanded to match the pixel's data */
 		pix = fz_new_pixmap_with_bbox_and_data(ctx, glo->colorspace, &pixbbox, 1, pixels);
 		if (pc->page_list == NULL && pc->annot_list == NULL)
 		{
@@ -1029,7 +1029,7 @@ JNI_FN(MuPDFCore_updatePageInternal)(JNIEnv *env, jobject thiz, jobject bitmap, 
 		pixbbox = bbox;
 		pixbbox.x1 = pixbbox.x0 + info.width;
 		/* pixmaps cannot handle right-edge padding, so the bbox must be expanded to
-		 * match the pixels data */
+		 * match the pixel's data */
 		pix = fz_new_pixmap_with_bbox_and_data(ctx, glo->colorspace, &pixbbox, 1, pixels);
 
 		zoom = glo->resolution / 72;
