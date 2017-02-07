@@ -1,8 +1,12 @@
 .gradle
 .idea
 .DS_Store
+/android.keystore
+/build.xml
 /local.properties
+/proguard-project.txt
+/project.properties
 /bin
 /gen
-/obj
 /libs
+/obj

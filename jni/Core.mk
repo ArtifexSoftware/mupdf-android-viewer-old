@@ -69,11 +69,6 @@ LOCAL_SRC_FILES := \
 	$(wildcard $(MY_ROOT)/source/html/*.c) \
 	$(wildcard $(MY_ROOT)/generated/*.c)
 
-ifdef FZ_ENABLE_GPRF
-LOCAL_SHARED_LIBRARIES := gsso
-endif
-LOCAL_LDLIBS := -lm -llog -ljnigraphics
-
 LOCAL_SRC_FILES := $(addprefix ../, $(LOCAL_SRC_FILES))
 
 include $(BUILD_STATIC_LIBRARY)
