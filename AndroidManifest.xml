@@ -33,27 +33,12 @@
 			<intent-filter>
 				<action android:name="android.intent.action.VIEW"/>
 				<category android:name="android.intent.category.DEFAULT"/>
-				<data android:mimeType="application/vnd.ms-xpsdocument"/>
-				<data android:mimeType="application/xps"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
+				<category android:name="android.intent.category.BROWSABLE"/>
 				<data android:mimeType="application/pdf"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
+				<data android:mimeType="application/vnd.ms-xpsdocument"/>
+				<data android:mimeType="application/oxps"/>
 				<data android:mimeType="application/x-cbz"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
 				<data android:mimeType="application/epub+zip"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
 				<data android:mimeType="text/xml"/>
 			</intent-filter>
 			<intent-filter>
@@ -61,45 +46,12 @@
 				<category android:name="android.intent.category.DEFAULT"/>
 				<category android:name="android.intent.category.BROWSABLE"/>
 				<data android:scheme="file"/>
-				<data android:mimeType="*/*"/>
-				<data android:pathPattern=".*\\.xps"/>
-				<data android:host="*"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
-				<category android:name="android.intent.category.BROWSABLE"/>
-				<data android:scheme="file"/>
-				<data android:mimeType="*/*"/>
 				<data android:pathPattern=".*\\.pdf"/>
-				<data android:host="*"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
-				<category android:name="android.intent.category.BROWSABLE"/>
-				<data android:scheme="file"/>
-				<data android:mimeType="*/*"/>
+				<data android:pathPattern=".*\\.xps"/>
+				<data android:pathPattern=".*\\.oxps"/>
 				<data android:pathPattern=".*\\.cbz"/>
-				<data android:host="*"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
-				<category android:name="android.intent.category.BROWSABLE"/>
-				<data android:scheme="file"/>
-				<data android:mimeType="*/*"/>
 				<data android:pathPattern=".*\\.epub"/>
-				<data android:host="*"/>
-			</intent-filter>
-			<intent-filter>
-				<action android:name="android.intent.action.VIEW"/>
-				<category android:name="android.intent.category.DEFAULT"/>
-				<category android:name="android.intent.category.BROWSABLE"/>
-				<data android:scheme="file"/>
-				<data android:mimeType="*/*"/>
 				<data android:pathPattern=".*\\.fb2"/>
-				<data android:host="*"/>
 			</intent-filter>
 		</activity>
 		<activity
