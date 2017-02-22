@@ -705,7 +705,7 @@ static void update_changed_rects_all_page(globals *glo, page_cache *pc, pdf_docu
 	fz_rect bounds;
 	rect_node *node;
 
-	fz_bound_page(ctx, page, &node->rect);
+	fz_bound_page(ctx, page, &bounds);
 
 	drop_changed_rects(ctx, &pc->hq_changed_rects);
 	drop_changed_rects(ctx, &pc->changed_rects);
