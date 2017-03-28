@@ -120,6 +120,9 @@
 				android:layout_toRightOf="@+id/cancelSearch"
 				android:layout_toLeftOf="@+id/searchBack"
 				android:inputType="text"
+				android:textColor="#000000"
+				android:textColorHint="#808080"
+				android:textColorHighlight="#8080FF"
 				android:hint="@string/search"
 				android:singleLine="true" />
 
