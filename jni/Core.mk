@@ -51,11 +51,9 @@ LOCAL_C_INCLUDES := \
 	$(MY_ROOT)/resources \
 	$(MY_ROOT)/include \
 	$(MY_ROOT)
-ifdef V8_BUILD
-LOCAL_C_INCLUDES += $(MY_ROOT)/thirdparty/$(V8)/include
-endif
+
 ifdef CRYPTO_BUILD
-LOCAL_C_INCLUDES += $(MY_ROOT)/thirdparty/openssl/include
+LOCAL_C_INCLUDES += $(MY_ROOT)/thirdparty/openssl-$(APP_ABI)/include
 endif
 
 LOCAL_MODULE := mupdfcore

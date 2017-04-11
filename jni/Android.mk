@@ -36,7 +36,7 @@ endif
 
 LOCAL_LDLIBS := -lm -llog -ljnigraphics
 ifdef CRYPTO_BUILD
-LOCAL_LDLIBS += -L$(MUPDF_ROOT)/thirdparty/openssl/android -lcrypto
+LOCAL_LDLIBS += -L$(MUPDF_ROOT)/thirdparty/openssl-$(APP_ABI)/lib -lcrypto
 endif
 
 include $(BUILD_SHARED_LIBRARY)
