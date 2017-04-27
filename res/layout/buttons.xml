@@ -395,17 +395,17 @@
 			android:textColor="#FFFFFF"
 			android:textAppearance="?android:attr/textAppearanceMedium" />
 
-	</RelativeLayout>
+		<TextView
+			android:id="@+id/info"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_above="@+id/pageSlider"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:background="@drawable/page_num"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textColor="#FFFFFF" />
 
-	<TextView
-		android:id="@+id/info"
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:layout_above="@+id/pageSlider"
-		android:layout_centerHorizontal="true"
-		android:layout_centerVertical="true"
-		android:background="@drawable/page_num"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:textColor="#FFFFFF" />
+	</RelativeLayout>
 
 </RelativeLayout>
