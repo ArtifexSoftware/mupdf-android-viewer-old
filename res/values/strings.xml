@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">MuPDF</string>
-	<string name="version">1.11 (git)</string>
+	<string name="version" translatable="false">1.11 (git)</string>
 	<string name="no_media_warning">Storage media not present</string>
 	<string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
 	<string name="cancel">Cancel</string>
@@ -25,8 +25,8 @@
 	<string name="edit_annotations">Edit annotations</string>
 	<string name="ink">Ink</string>
 	<string name="save">Save</string>
-	<string name="proof">Proof</string>
-	<string name="separation">Separation</string>
+	<string name="proof" translatable="false">Proof</string>
+	<string name="separation" translatable="false">Separation</string>
 	<string name="print">Print</string>
 	<string name="dismiss">Dismiss</string>
 	<string name="parent_directory">[Up one level]</string>
@@ -54,5 +54,5 @@
 	<string name="accept">Accept</string>
 	<string name="copy_text">copy text</string>
 	<string name="format_currently_not_supported">Format currently not supported</string>
-	<string name="toggle_reflow_mode">Toggle reflow mode</string>
+	<string name="toggle_reflow_mode" translatable="false">Toggle reflow mode</string>
 </resources>
