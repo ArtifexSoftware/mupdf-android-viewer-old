@@ -35,8 +35,8 @@ android {
 
 	sourceSets {
 		main {
-			java.srcDirs 'jni', 'src'
 			manifest.srcFile 'AndroidManifest.xml'
+			java.srcDirs 'jni', 'src'
 			res.srcDirs 'res'
 		}
 	}

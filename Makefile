@@ -23,4 +23,4 @@ clean:
 	ANDROID_HOME=$(ANDROID_HOME) ./gradlew clean
 distclean: clean
 	make -C libmupdf nuke
-	rm -rf .externalNativeBuild/ .gradle/ .idea/ build/ mupdf-android-viewer-old.iml
+	rm -rf .externalNativeBuild/ .gradle/ .idea/ build/ local.properties mupdf-android-viewer-old.iml
