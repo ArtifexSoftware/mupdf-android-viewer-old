@@ -35,7 +35,6 @@
 	<string name="okay">Okey</string>
 	<string name="outline_title">Jadual Kandungan</string>
 	<string name="parent_directory">[Naik satu tahap]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Cetak</string>
 	<string name="print_failed">Gagal dicetak</string>
 	<string name="save">Simpan</string>

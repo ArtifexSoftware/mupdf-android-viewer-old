@@ -35,7 +35,6 @@
 	<string name="okay">Ok</string>
 	<string name="outline_title">Sommario</string>
 	<string name="parent_directory">[Su di un livello]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Stampa</string>
 	<string name="print_failed">Stampa non riuscita</string>
 	<string name="save">Salva</string>

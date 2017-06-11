@@ -35,7 +35,6 @@
 	<string name="okay">完成</string>
 	<string name="outline_title">目錄</string>
 	<string name="parent_directory">[升一級]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s%2$s%3$s</string>
 	<string name="print">列印</string>
 	<string name="print_failed">列印失敗</string>
 	<string name="save">儲存</string>

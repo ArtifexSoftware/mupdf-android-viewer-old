@@ -35,7 +35,6 @@
 	<string name="okay">OK</string>
 	<string name="outline_title">Obsah</string>
 	<string name="parent_directory">[Nahoru o jednu úroveň]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Tisk</string>
 	<string name="print_failed">Tisk selhal</string>
 	<string name="save">Uložit</string>

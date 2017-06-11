@@ -35,7 +35,6 @@
 	<string name="okay">Ok</string>
 	<string name="outline_title">Innholdsfortegnelse</string>
 	<string name="parent_directory">[OPP ett nivå]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s%2$s%3$s</string>
 	<string name="print">Skriv ut</string>
 	<string name="print_failed">Kunne ikke skrive ut</string>
 	<string name="save">Lagre</string>

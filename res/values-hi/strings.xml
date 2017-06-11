@@ -35,7 +35,6 @@
 	<string name="okay">ठीक है</string>
 	<string name="outline_title">विषय सूची</string>
 	<string name="parent_directory">[एक स्तर ऊपर]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s%2$s:%3$s</string>
 	<string name="print">मुद्रित करें</string>
 	<string name="print_failed">मुद्रण विफल हुआ</string>
 	<string name="save">सहेजें</string>

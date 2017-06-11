@@ -35,7 +35,6 @@
 	<string name="okay">Oké</string>
 	<string name="outline_title">Inhoudsopgave</string>
 	<string name="parent_directory">[Een niveau hoger]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Afdrukken</string>
 	<string name="print_failed">Afdrukken mislukt</string>
 	<string name="save">Opslaan</string>

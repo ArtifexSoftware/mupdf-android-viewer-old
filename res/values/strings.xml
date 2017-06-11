@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">MuPDF</string>
-	<string name="version" translatable="false">1.11 (git)</string>
 	<string name="no_media_warning">Storage media not present</string>
 	<string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
 	<string name="cancel">Cancel</string>
 	<string name="search_backwards">Search backwards</string>
 	<string name="search_forwards">Search forwards</string>
 	<string name="search_document">Search document</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="outline_title">Table of Contents</string>
 	<string name="enter_password">Enter password</string>
 	<string name="text_not_found">Text not found</string>

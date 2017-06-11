@@ -35,7 +35,6 @@
 	<string name="okay">OK</string>
 	<string name="outline_title">Tabla de contenidos</string>
 	<string name="parent_directory">[Subir un nivel]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Imprimir</string>
 	<string name="print_failed">No se ha imprimido</string>
 	<string name="save">Guardar</string>

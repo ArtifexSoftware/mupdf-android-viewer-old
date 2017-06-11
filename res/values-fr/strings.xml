@@ -35,7 +35,6 @@
 	<string name="okay">OK</string>
 	<string name="outline_title">Table des matières</string>
 	<string name="parent_directory">[Niveau supérieur]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s%2$s : %3$s</string>
 	<string name="print">Imprimer</string>
 	<string name="print_failed">L\'impression a échoué</string>
 	<string name="save">Sauvegarder</string>

@@ -35,7 +35,6 @@
 	<string name="okay">Acceptar</string>
 	<string name="outline_title">Índex</string>
 	<string name="parent_directory">[Pujar un nivell]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Imprimir</string>
 	<string name="print_failed">Fallada al imprimir</string>
 	<string name="save">Desar</string>

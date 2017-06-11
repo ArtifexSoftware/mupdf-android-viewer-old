@@ -35,7 +35,6 @@
 	<string name="okay">Tamam</string>
 	<string name="outline_title">İçindekiler Tablosu</string>
 	<string name="parent_directory">[Bir seviye üste çık]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Yazdır</string>
 	<string name="print_failed">Yazdırma başarısız oldu</string>
 	<string name="save">Kaydet</string>

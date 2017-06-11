@@ -35,7 +35,6 @@
 	<string name="okay">Gerai</string>
 	<string name="outline_title">Turinys</string>
 	<string name="parent_directory">[Vienu lygiu aukštyn]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Spausdinti</string>
 	<string name="print_failed">Išspausdinti nepavyko</string>
 	<string name="save">Įrašyti</string>

@@ -35,7 +35,6 @@
 	<string name="okay">了解</string>
 	<string name="outline_title">目次</string>
 	<string name="parent_directory">[一つ上位のレベル]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">印刷</string>
 	<string name="print_failed">印刷に失敗しました</string>
 	<string name="save">保存</string>

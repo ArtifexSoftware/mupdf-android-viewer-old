@@ -35,7 +35,6 @@
 	<string name="okay">OK</string>
 	<string name="outline_title">Inhaltsverzeichnis</string>
 	<string name="parent_directory">[Eine Ebene nach oben]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Drucken</string>
 	<string name="print_failed">Fehler beim Drucken</string>
 	<string name="save">Speichern</string>

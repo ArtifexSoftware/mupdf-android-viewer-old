@@ -35,7 +35,6 @@
 	<string name="okay">Dobre</string>
 	<string name="outline_title">Obsah</string>
 	<string name="parent_directory">[O úroveň vyššie]</string>
-	<string name="picker_title_App_Ver_Dir">%1$s %2$s: %3$s</string>
 	<string name="print">Tlačiť</string>
 	<string name="print_failed">Tlačenie zlyhalo</string>
 	<string name="save">Uložiť</string>
