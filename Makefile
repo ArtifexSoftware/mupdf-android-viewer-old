@@ -12,15 +12,15 @@ assembleRelease: generate
 	ANDROID_HOME=$(ANDROID_HOME) ./gradlew assembleRelease
 installDebug: generate
 	ANDROID_HOME=$(ANDROID_HOME) ./gradlew installDebug
+lint:
+	ANDROID_HOME=$(ANDROID_HOME) ./gradlew lint
+clean:
+	ANDROID_HOME=$(ANDROID_HOME) ./gradlew clean
 
 run: installDebug
 	adb shell am start -n com.artifex.mupdfdemo/.ChoosePDFActivity
 
-lint:
-	ANDROID_HOME=$(ANDROID_HOME) ./gradlew lint
-
-clean:
-	ANDROID_HOME=$(ANDROID_HOME) ./gradlew clean
-distclean: clean
+distclean:
 	make -C libmupdf nuke
-	rm -rf .externalNativeBuild/ .gradle/ .idea/ build/ local.properties mupdf-android-viewer-old.iml
+	rm -rf .externalNativeBuild .gradle build
+	rm -rf .idea/ local.properties mupdf-android-viewer-old.iml
